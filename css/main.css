@@ -12,8 +12,8 @@ p {
 }
 
 .btn {
-  color: #fff;
   border-color: #97a49b;
+  color: #fff;
 }
 
 .btn:hover {
@@ -25,17 +25,17 @@ p {
 @media only screen and (min-width: 60em) {
 
   .earth-content {
-    position: absolute;
-    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
     background-color: transparent;
+    position: absolute;
     bottom: 0;
     width: 100%;
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
   }
 
   .earth {
-    max-height: 500px;
     position: relative;
     overflow: hidden;
+    max-height: 500px;
   }
 
   .btn {
